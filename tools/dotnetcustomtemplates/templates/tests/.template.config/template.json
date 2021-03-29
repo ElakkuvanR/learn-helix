@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Elakkuvan R",
+  "classifications": [ "Elakkuvan", "Helix", "UTs" ],
+  "identity": "LearnHelix.Project.Tests",
+  "name": "LearnHelix Project UTs",
+  "shortName": "learnhelix-project-test",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "LearnHelix.Project.Tests",
+  "symbols":{
+      "rootnamespace": {
+      "type": "parameter",
+      "defaultValue": "LearnHelix",
+      "replaces": "LearnHelix"
+    }
+  }
+}

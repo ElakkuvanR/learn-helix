@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Elakkuvan R",
+  "classifications": [ "Elakkuvan", "Helix", "Project" ],
+  "identity": "LearnHelix.Project",
+  "name": "LearnHelix Project",
+  "shortName": "learnhelix-project",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "LearnHelix.Project",
+  "symbols": {
+    "layer": {
+      "type": "parameter",
+      "datatype": "choice",
+      "isRequired": true,
+	  "defaultValue": "Feature",
+      "choices": [ {
+        "choice": "Project",
+        "description": "Template Type Project"
+      },
+      {
+        "choice": "Feature",
+        "description": "Template Type Feature"
+      },
+      {
+        "choice": "Foundation",
+        "description": "Template Type Foundation"
+      } ],
+	  "replaces": "Layer",
+      "description": "Provide template type for Sitecore Content Serialization"
+    }
+  },
+  "SpecialCustomOperations": {
+    "**/*.json": {
+      "operations": [ {
+          "type": "conditional",
+          "configuration": {
+            "if": ["//if"],
+            "else": ["//else"],
+            "elseif": ["//elseif", "//elif"],
+            "endif": ["//endif"],
+            "trim" : "true",
+            "wholeLine": "true"
+          }
+      } ]
+    }
+  }
+}
