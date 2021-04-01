@@ -10,11 +10,4 @@
     "type": "project"
   },
   "sourceName": "LearnHelix.Project.Tests",
-  "symbols":{
-      "rootnamespace": {
-      "type": "parameter",
-      "defaultValue": "LearnHelix",
-      "replaces": "LearnHelix"
-    }
-  }
 }
