@@ -1,0 +1,7 @@
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\bin\Learn.Helix.Feature.Multisite.dll.config
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\bin\Learn.Helix.Feature.Multisite.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\bin\Learn.Helix.Feature.Multisite.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\obj\Debug\Learn.Helix.Feature.Multisite.csproj.CoreCompileInputs.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\obj\Debug\Learn.Helix.Feature.Multisite.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\obj\Debug\Learn.Helix.Feature.Multisite.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\code\obj\Debug\Learn.Helix.Feature.Multisite.csprojAssemblyReference.cache

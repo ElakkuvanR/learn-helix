@@ -1,0 +1,7 @@
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\bin\Learn.Helix.Feature.Navigation.dll.config
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\bin\Learn.Helix.Feature.Navigation.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\bin\Learn.Helix.Feature.Navigation.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\obj\Debug\Learn.Helix.Feature.Navigation.csproj.CoreCompileInputs.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\obj\Debug\Learn.Helix.Feature.Navigation.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\obj\Debug\Learn.Helix.Feature.Navigation.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\code\obj\Debug\Learn.Helix.Feature.Navigation.csprojAssemblyReference.cache

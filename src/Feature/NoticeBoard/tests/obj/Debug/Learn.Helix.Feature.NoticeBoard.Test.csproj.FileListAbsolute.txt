@@ -1,0 +1,14 @@
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Learn.Helix.Feature.NoticeBoard.Test.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Learn.Helix.Feature.NoticeBoard.Test.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\obj\Debug\Learn.Helix.Feature.NoticeBoard.Test.csprojAssemblyReference.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\obj\Debug\Learn.Helix.Feature.NoticeBoard.Test.csproj.CoreCompileInputs.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\obj\Debug\Learn.Helix.Feature.NoticeBoard.Test.csproj.CopyComplete
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\obj\Debug\Learn.Helix.Feature.NoticeBoard.Test.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\tests\obj\Debug\Learn.Helix.Feature.NoticeBoard.Test.pdb

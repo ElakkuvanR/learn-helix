@@ -1,0 +1,7 @@
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\bin\Learn.Helix.Feature.NoticeBoard.dll.config
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\bin\Learn.Helix.Feature.NoticeBoard.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\bin\Learn.Helix.Feature.NoticeBoard.pdb
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\obj\Debug\Learn.Helix.Feature.NoticeBoard.csprojAssemblyReference.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\obj\Debug\Learn.Helix.Feature.NoticeBoard.csproj.CoreCompileInputs.cache
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\obj\Debug\Learn.Helix.Feature.NoticeBoard.dll
+C:\Z_LearnHelix\learn-helix\src\Feature\NoticeBoard\code\obj\Debug\Learn.Helix.Feature.NoticeBoard.pdb
