@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Helix.Foundation.ORM"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NoticeBoard", "NoticeBoard", "{816E44E7-8623-4341-B6D2-B260FF95EE64}"
 EndProject
-Project("{fae04ec0-301f-11d3-bf4b-00c04f79efbc}") = "Learn.Helix.Feature.NoticeBoard", "src\Feature\NoticeBoard\code\Learn.Helix.Feature.NoticeBoard.csproj", "{E245FE50-CEF6-40DD-88F6-32AD1F08B7FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Helix.Feature.NoticeBoard", "src\Feature\NoticeBoard\code\Learn.Helix.Feature.NoticeBoard.csproj", "{E245FE50-CEF6-40DD-88F6-32AD1F08B7FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Helix.Feature.NoticeBoard.Test", "src\Feature\NoticeBoard\tests\Learn.Helix.Feature.NoticeBoard.Test.csproj", "{9F75B570-DFC9-4632-AD84-9524DA746824}"
 EndProject
@@ -158,7 +158,7 @@ Global
 		{9F75B570-DFC9-4632-AD84-9524DA746824} = {816E44E7-8623-4341-B6D2-B260FF95EE64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {EF8F9774-5A99-4B48-A6DA-E20DEEC4790E}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,14 @@
+﻿---
+ID: "861e3e84-2625-4932-95a0-eedddcd616d5"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/NoticeBoard
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210402T153324Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "7245d1ae-f566-4e58-848c-7430a6c96faa"
+Parent: "4138c03d-8214-4481-94b4-5e451e1b42e8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/NoticeBoard/_Noticeboard/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210402T160510Z
