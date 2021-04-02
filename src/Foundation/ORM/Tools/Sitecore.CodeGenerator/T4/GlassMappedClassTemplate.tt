@@ -1,0 +1,126 @@
+﻿<#@ assembly name="System.Core" #>
+<#@ assembly name="$(SolutionDir)src\Foundation\Orm\Tools\Sitecore.CodeGenerator\bin\Debug\Sitecore.Kernel.dll" #>
+<#@ import namespace="Sitecore.CodeGenerator.Domain" #>
+<#@ import namespace="System.Linq" #>
+<#+
+public class GlassMappedClassTemplate : CSharpTemplate
+{
+	public TemplateItem Template { get; set; }
+
+	public Func<string,string,FieldOptions> GetFieldOptionsFunction { get; set; }
+
+	private string Extends { get; set; }
+
+	public override string TransformText()
+	{
+		this.Extends = string.Empty;
+		if(this.Template.BaseTemplates.Any())
+		{
+			this.Extends = string.Concat(" : ", string.Join(", ", this.Template.BaseTemplates.Select(b => string.Concat("I", Identifier(b.SyncItem.Name.TrimStart('_'))).TrimStart('_'))));
+		}
+
+		base.TransformText();
+#>
+namespace <#= DefaultNamespace #>
+{
+  using System;
+  using System.Collections.Generic;
+  using System.Collections.Specialized;
+  
+  using global::Glass.Mapper.Sc.Configuration;
+  using global::Glass.Mapper.Sc.Configuration.Attributes;
+  using global::Glass.Mapper.Sc.Fields;
+    
+  using Sitecore.Data;
+
+  /// <summary>
+  /// Represents const IDs for mapped type.
+  /// </summary>
+  public partial struct Templates
+  {
+   #region Template Ids
+    public struct <#=Identifier(Template.SyncItem.Name.TrimStart('_'))#>
+    {
+      public const string Id = "<#= Template.SyncItem.ID #>";
+      public static ID TemplateId { get; } = new ID(Id);
+
+      public struct Fields
+      {
+<#+
+      foreach(var section in Template.Sections)
+		  {
+        foreach(var field in section.Fields)
+        {
+	        var fieldOptions = GetFieldOptionsFunction(field.FieldTypeName, field.SyncItem.ID);
+#>
+        public const string <#=Identifier(field.SyncItem.Name)#> = "<#=field.SyncItem.ID#>";
+<#+
+        }
+      }
+#>
+      }
+
+      public struct FieldIds
+      {
+<#+
+      foreach(var section in Template.Sections)
+		  {
+        foreach(var field in section.Fields)
+        {
+	        var fieldOptions = GetFieldOptionsFunction(field.FieldTypeName, field.SyncItem.ID);
+          var syncItemName = Identifier(field.SyncItem.Name);
+#>
+        public static ID <#=syncItemName#> { get; } = new ID(Fields.<#=syncItemName#>);
+<#+
+        }
+      }
+#>
+      }
+    }
+    #endregion
+  }
+
+  /// <summary>
+  /// Represents a mapped type for item <#= Template.SyncItem.ID #> in Sitecore.
+  /// Path: <#= Template.SyncItem.ItemPath #>
+  /// </summary>
+  [SitecoreType(TemplateId = Templates.<#=Identifier(Template.SyncItem.Name.TrimStart('_'))#>.Id, EnforceTemplate = SitecoreEnforceTemplate.TemplateAndBase)]
+  public partial interface I<#=Identifier(Template.SyncItem.Name.TrimStart('_'))#><#=Extends#>
+  {
+<#+
+		foreach(var section in Template.Sections)
+		{
+#>
+    #region <#=section.SyncItem.Name.TrimStart('_')#>
+
+<#+
+      foreach(var field in section.Fields)
+      {
+	      var fieldOptions = GetFieldOptionsFunction(field.FieldTypeName, field.SyncItem.ID);
+	      if(! string.IsNullOrWhiteSpace(field.FieldTitle))
+	      {
+#>
+    /// <summary>
+    /// <#=field.FieldTitle#>
+    /// </summary>
+<#+
+				}
+#>
+    [SitecoreField(FieldId = Templates.<#=Identifier(Template.SyncItem.Name.TrimStart('_'))#>.Fields.<#=Identifier(field.SyncItem.Name)#><#=fieldOptions.AttributeExtras ?? string.Empty #>)]
+    <#=string.IsNullOrEmpty(field.MappedType) ? fieldOptions.GlassFieldTypeName : field.MappedType#> <#=Identifier(field.SyncItem.Name)#> { get; set; }
+
+<#+
+      }
+#>
+	#endregion
+
+<#+
+    }
+#>
+  }
+}
+<#+
+    return this.GenerationEnvironment.ToString();
+	}
+}
+#>

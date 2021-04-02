@@ -1,0 +1,14 @@
+<#@ template language="C#" debug="True" #>
+<#@ output extension="gen.txt" #>
+<#@ include file="T4Toolbox.tt" #>
+<#@ include file="$(SolutionDir)src\Foundation\Orm\Tools\Sitecore.CodeGenerator\T4\GlassGenerator.tt" #>
+<#
+	GlassGenerator generator = new GlassGenerator(
+			"master",
+			new [] { "/sitecore/templates/Feature/NoticeBoard" },
+			(fieldId, fieldOptions) =>
+				{
+         
+				});
+    generator.Run();
+#>

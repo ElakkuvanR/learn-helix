@@ -1,0 +1,19 @@
+// This file is used by Code Analysis to maintain SuppressMessage 
+// attributes that are applied to this project.
+// Project-level suppressions either have no target or are given 
+// a specific target and scoped to a namespace, type, member, etc.
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S2360:Optional parameters should not be used", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolverRainbow.#ctor(System.String,System.String[],System.String)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S2360:Optional parameters should not be used", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolver.#ctor(System.String,System.String[],System.String)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S2360:Optional parameters should not be used", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.Domain.ItemBase.GetFieldValue(System.String,System.String)~System.String")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S2360:Optional parameters should not be used", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.Domain.ItemBase.GetSharedFieldValue(System.String,System.String)~System.String")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S2360:Optional parameters should not be used", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolverBase.#ctor(System.String,System.String[],System.String)")]
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S3442:\"abstract\" classes should not have \"public\" constructors", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.Domain.ItemBase.#ctor(Sitecore.Data.Serialization.ObjectModel.SyncItem)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S1699:Constructors should only call non-overridable methods", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolverBase.#ctor(System.String,System.String[],System.String)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S3776:Cognitive Complexity of methods should not be too high", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolverBase.InitializeTemplates(System.Collections.Generic.List{Sitecore.Data.Serialization.ObjectModel.SyncItem},System.IO.DirectoryInfo)")]
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Critical Code Smell", "S3776:Cognitive Complexity of methods should not be too high", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.Serialization.SerializedIdToPathResolver.FindFilePath(Sitecore.Data.ID,System.IO.DirectoryInfo)~System.String")]
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S112:General exceptions should never be thrown", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolver.GetAllItems(System.IO.DirectoryInfo,System.String,System.String[])~System.Collections.Generic.List{Sitecore.Data.Serialization.ObjectModel.SyncItem}")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Major Code Smell", "S112:General exceptions should never be thrown", Justification = "3rd party code", Scope = "member", Target = "~M:Sitecore.CodeGenerator.TemplatesResolverRainbow.GetItem(System.IO.FileInfo,System.Func{Rainbow.Model.IItemData,System.Boolean})~Sitecore.Data.Serialization.ObjectModel.SyncItem")]

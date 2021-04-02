@@ -11,4 +11,3 @@ C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\tests\obj\Debug\Learn.Helix.F
 C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\tests\obj\Debug\Learn.Helix.Feature.Navigation.Test.csproj.CopyComplete
 C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\tests\obj\Debug\Learn.Helix.Feature.Navigation.Test.dll
 C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\tests\obj\Debug\Learn.Helix.Feature.Navigation.Test.pdb
-C:\Z_LearnHelix\learn-helix\src\Feature\Navigation\tests\obj\Debug\Learn.Helix.Feature.Navigation.Test.csprojAssemblyReference.cache
