@@ -18,6 +18,10 @@ public class GlassMappedClassTemplate : CSharpTemplate
 		{
 			this.Extends = string.Concat(" : ", string.Join(", ", this.Template.BaseTemplates.Select(b => string.Concat("I", Identifier(b.SyncItem.Name.TrimStart('_'))).TrimStart('_'))));
 		}
+		else
+		{
+			this.Extends = " : IGlassBase";
+		}
 
 		base.TransformText();
 #>
@@ -32,7 +36,7 @@ namespace <#= DefaultNamespace #>
   using global::Glass.Mapper.Sc.Fields;
     
   using Sitecore.Data;
-
+  using Learn.Helix.Foundation.ORM.Models;
   /// <summary>
   /// Represents const IDs for mapped type.
   /// </summary>

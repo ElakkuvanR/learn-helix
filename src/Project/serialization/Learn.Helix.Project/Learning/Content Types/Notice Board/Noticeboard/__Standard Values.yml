@@ -1,0 +1,22 @@
+﻿---
+ID: "dfa28ad7-acbf-4660-9bfd-36d73cb01141"
+Parent: "39aa07b6-6a22-4eaa-a336-0416f5fd1d32"
+Template: "39aa07b6-6a22-4eaa-a336-0416f5fd1d32"
+Path: /sitecore/templates/Project/Playground/Learning/Content Types/Notice Board/Noticeboard/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/copy.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210403T134238Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

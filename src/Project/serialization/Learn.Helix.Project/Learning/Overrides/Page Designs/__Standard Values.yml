@@ -1,0 +1,25 @@
+﻿---
+ID: "aa3a99a2-9eaf-4bba-9b8b-f285732dbbfd"
+Parent: "d3912f48-21a2-407f-8df2-1e88ad3917f6"
+Template: "d3912f48-21a2-407f-8df2-1e88ad3917f6"
+Path: /sitecore/templates/Project/Playground/Learning/Overrides/Page Designs/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {5C5AEB82-4935-46F9-9CD3-F5A3E73113FD}
+    {1B335330-5E1C-4770-A568-73CD93CEE49E}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T174013Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

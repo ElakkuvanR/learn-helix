@@ -1,0 +1,14 @@
+﻿---
+ID: "df90278a-e44d-49ec-b4f3-97ad75ed24b5"
+Parent: "2a914b7e-9711-491c-887d-604dfc08b20d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Playground/Learning/Overrides/Page/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210326T174031Z

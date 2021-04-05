@@ -14,7 +14,7 @@ namespace Learn.Helix.Feature.NoticeBoard.Models
   using global::Glass.Mapper.Sc.Fields;
     
   using Sitecore.Data;
-
+  using Learn.Helix.Foundation.ORM.Models;
   /// <summary>
   /// Represents const IDs for mapped type.
   /// </summary>
@@ -50,7 +50,7 @@ namespace Learn.Helix.Feature.NoticeBoard.Models
   /// Path: /sitecore/templates/Feature/NoticeBoard/_Noticeboard
   /// </summary>
   [SitecoreType(TemplateId = Templates.Noticeboard.Id, EnforceTemplate = SitecoreEnforceTemplate.TemplateAndBase)]
-  public partial interface INoticeboard
+  public partial interface INoticeboard : IGlassBase
   {
     #region Images
 

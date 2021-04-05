@@ -7,8 +7,8 @@ C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\bin\Debug\Microsoft.Visu
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.csprojAssemblyReference.cache
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.csproj.CoreCompileInputs.cache
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.csproj.CopyComplete
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.dll
 C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.pdb
-C:\Z_LearnHelix\learn-helix\src\Feature\Multisite\tests\obj\Debug\Learn.Helix.Feature.Multisite.Test.csprojAssemblyReference.cache

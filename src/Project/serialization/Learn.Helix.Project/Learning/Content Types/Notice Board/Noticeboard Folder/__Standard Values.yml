@@ -1,0 +1,23 @@
+﻿---
+ID: "3d79298a-8227-40a5-afae-5c1880292768"
+Parent: "38086b12-2afd-46b2-b5a4-2d8df96beb5f"
+Template: "38086b12-2afd-46b2-b5a4-2d8df96beb5f"
+Path: /sitecore/templates/Project/Playground/Learning/Content Types/Notice Board/Noticeboard Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{39AA07B6-6A22-4EAA-A336-0416F5FD1D32}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210403T134427Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

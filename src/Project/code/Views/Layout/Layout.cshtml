@@ -1,6 +1,5 @@
-﻿@{
-    Layout = null;
-}
+﻿@using Sitecore.Mvc
+@using System.Web.Mvc.Html
 
 <!DOCTYPE html>
 
@@ -11,7 +10,7 @@
 </head>
 <body>
     <div>
-    
+        @Html.Sitecore().Placeholder("main")
     </div>
 </body>
 </html>

@@ -1,0 +1,14 @@
+﻿---
+ID: "08681a5c-c490-44c0-aab8-f56bc7b74085"
+Parent: "67842569-90ae-43f7-8b74-eba89c5c9e62"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Playground/Learning/Page Types
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210403T140530Z
