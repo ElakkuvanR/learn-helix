@@ -144,6 +144,7 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Controllers\GlassStandardController.cs" />
     <Compile Include="DI\RegisterGlassContainer.cs" />
+    <Compile Include="GlassExtension\CustomGlassHtml.cs" />
     <Compile Include="Models\GlassBase.cs" />
     <Compile Include="Models\IGlassBase.cs" />
     <Compile Include="Models\RenderingGlassModel.cs" />
