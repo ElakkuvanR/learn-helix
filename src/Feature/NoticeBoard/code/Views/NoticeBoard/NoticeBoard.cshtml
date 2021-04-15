@@ -1,11 +1,15 @@
 ﻿@using Glass.Mapper.Sc.Web.Mvc
 @model Learn.Helix.Feature.NoticeBoard.Models.NoticeboardViewModel
 <div class="noticeboard">
-    <div class="noticeboard_wrapper">
-        <div class="noticeboard_image" area-hidden="true"
+    <div class="noticeboard__wrapper">
+        <div class="noticeboard__image" area-hidden="true"
              style="background-image: url('@Html.Glass().RenderImageUrl(Model.GlassModel.PrimaryImage, o => o)')">
-            <h3>@Model.Quote</h3>
-            @Model.Author
+            <header>
+                <h1>
+                    @Model.Quote
+                </h1>
+            </header>
+            <p>@Model.Author</p>
         </div>
         @if (Model.SecondaryImageUrl != null)
         {
@@ -15,3 +19,67 @@
         }
     </div>
 </div>
+<style>
+    .noticeboard {
+        overflow-x: hidden;
+        align-items: center;
+    }
+
+    .noticeboard__wrapper {
+        width: 100%;
+    }
+
+    .noticeboard__image {
+        background-attachment: fixed;
+        width: 600px;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+        margin: 20px;
+    }
+
+        .noticeboard__image > header {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10px;
+            background: inherit;
+            background-attachment: fixed;
+        }
+
+            .noticeboard__image > header::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: inherit;
+                background-attachment: fixed;
+                -webkit-filter: blur(12px);
+                filter: blur(12px);
+                transform: scale(2) translateY(20px);
+            }
+
+            .noticeboard__image > header > h1 {
+                margin: 0;
+                color: white;
+                position: relative;
+                z-index: 1;
+            }
+
+        .noticeboard__image > p {
+            margin: 0;
+            font-size: 1rem;
+            color: white;
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            padding: 4px 12px;
+        }
+
+    * {
+        box-sizing: border-box;
+    }
+</style>
