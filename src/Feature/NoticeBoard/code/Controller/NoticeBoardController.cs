@@ -30,7 +30,6 @@ namespace Learn.Helix.Feature.NoticeBoard.Controller
         public ActionResult NoticeBoard()
         {
             var model = _noticeboardRepo.GetNoticeboardViewModel();
-            model.GlassModel = _mvcContext.GetDataSourceItem<INoticeboard>();
             return View(model);
         }
     }

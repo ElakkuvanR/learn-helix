@@ -23,6 +23,7 @@ namespace Learn.Helix.Feature.NoticeBoard.Repositories
         public NoticeboardViewModel GetNoticeboardViewModel()
         {
             var model = _mvcContext.GetDataSourceItem<INoticeboard>();
+
             return new NoticeboardViewModel(model);
         }
     }

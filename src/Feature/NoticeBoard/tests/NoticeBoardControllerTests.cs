@@ -1,18 +1,16 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FluentAssertions;
 using Learn.Helix.Foundation.Testing.Customizations;
-using System;
-using Xunit;
 using Sitecore.Data.Items;
-using FluentAssertions;
+using Xunit;
 
-namespace NoticeBoardControllerTests
+namespace Learn.Helix.Feature.NoticeBoard.Test
 {
-    public class NoticeBoardControllerTests
+    public class NoticeboardControllerTests
     {
         [Theory, DefaultAutoData]
-        public void NoticeBoard_ShouldReturn_ViewModel(Item item)
+        public void NoticeBoard_ShouldReturn_NoticeboardModel(string name)
         {
-            item.Should().NotBeNull();
+            name.Should().NotBeEmpty();
         }
     }
 }

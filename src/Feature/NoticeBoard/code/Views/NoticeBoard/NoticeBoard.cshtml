@@ -3,7 +3,7 @@
 <div class="noticeboard">
     <div class="noticeboard__wrapper">
         <div class="noticeboard__image" area-hidden="true"
-             style="background-image: url('@Html.Glass().RenderImageUrl(Model.GlassModel.PrimaryImage, o => o)')">
+             style="background-image: url('@Html.Glass().RenderImageUrl(Model.PrimaryImage, o => o)')">
             <header>
                 <h1>
                     @Model.Quote
@@ -11,12 +11,6 @@
             </header>
             <p>@Model.Author</p>
         </div>
-        @if (Model.SecondaryImageUrl != null)
-        {
-            <div class="noticeboard_image noticeboard_secondary-image" aria-hidden="true"
-                 style="background-image: url(' @Html.Glass().RenderImageUrl(Model.GlassModel.SecondaryImage, o => o)')">
-            </div>
-        }
     </div>
 </div>
 <style>
