@@ -31,6 +31,7 @@ namespace Learn.Helix.Feature.NoticeBoard.Test
             _noticeboard.PrimaryImage.Returns(new Glass.Mapper.Sc.Fields.Image());
             _noticeboard.SecondaryImage.Returns(new Glass.Mapper.Sc.Fields.Image());
             NoticeboardViewModel model = new NoticeboardViewModel(_noticeboard);
+           
             // Act
             _noticeboardRepo.GetNoticeboardViewModel().Returns(model);
 

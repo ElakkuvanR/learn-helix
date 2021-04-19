@@ -14,15 +14,15 @@ namespace Learn.Helix.Foundation.Testing.Extension
 {
     public static class ItemTestExtension
     {
-        public static Item AddItem(this Database db, ID itemId, ID templateId, string name)
+        public static Item AddItem(this Database db, string itemName, ID itemId, ID templateId)
         {
-            var itemBase = new ItemDefinition(itemId, name, templateId, ID.Null, DateTime.Now);
-            var templateBase = new ItemDefinition(templateId, name, TemplateIDs.Template, ID.Null, DateTime.Now);
+            var itemBase = new ItemDefinition(itemId, itemName, templateId, ID.Null, DateTime.Now);
+            var templateBase = new ItemDefinition(templateId, itemName, TemplateIDs.Template, ID.Null, DateTime.Now);
             var itemActual = new ItemData(itemBase, Language.Parse("en"), Version.First, new FieldList());
             var templateActual = new ItemData(templateBase, Language.Parse("en"), Version.First, new FieldList());
             var item = Substitute.For<Item>(itemId, itemActual, db);
             var templateItem = Substitute.For<Item>(templateId, templateActual, db);
-            item.Name.Returns(name);
+            item.Name.Returns(itemName);
             item.Versions.Returns(Substitute.For<ItemVersions>(item));
             item.Versions.Count.Returns(1);
             item.Paths.Returns(Substitute.For<ItemPath>(item));
