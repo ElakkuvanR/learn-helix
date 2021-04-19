@@ -114,6 +114,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\ORM\code\Learn.Helix.Foundation.ORM.csproj">
+      <Project>{8C1C9C05-89EC-4D1C-8C14-C0D9E9FA92B3}</Project>
+      <Name>Learn.Helix.Foundation.ORM</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\Testing\code\Learn.Helix.Foundation.Testing.csproj">
       <Project>{13333c91-1466-49d5-93fa-b9052601a666}</Project>
       <Name>Learn.Helix.Foundation.Testing</Name>

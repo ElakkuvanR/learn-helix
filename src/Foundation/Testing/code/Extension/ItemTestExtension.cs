@@ -16,12 +16,12 @@ namespace Learn.Helix.Foundation.Testing.Extension
     {
         public static Item AddItem(this Database db, ID itemId, ID templateId, string name)
         {
-            var itemDefintition = new ItemDefinition(itemId, name, templateId, ID.Null, DateTime.Now);
-            var templateDefintition = new ItemDefinition(templateId, name, TemplateIDs.Template, ID.Null, DateTime.Now);
-            var itemData = new ItemData(itemDefintition, Language.Parse("en"), Version.First, new FieldList());
-            var templateItemData = new ItemData(templateDefintition, Language.Parse("en"), Version.First, new FieldList());
-            var item = Substitute.For<Item>(itemId, itemData, db);
-            var templateItem = Substitute.For<Item>(templateId, templateItemData, db);
+            var itemBase = new ItemDefinition(itemId, name, templateId, ID.Null, DateTime.Now);
+            var templateBase = new ItemDefinition(templateId, name, TemplateIDs.Template, ID.Null, DateTime.Now);
+            var itemActual = new ItemData(itemBase, Language.Parse("en"), Version.First, new FieldList());
+            var templateActual = new ItemData(templateBase, Language.Parse("en"), Version.First, new FieldList());
+            var item = Substitute.For<Item>(itemId, itemActual, db);
+            var templateItem = Substitute.For<Item>(templateId, templateActual, db);
             item.Name.Returns(name);
             item.Versions.Returns(Substitute.For<ItemVersions>(item));
             item.Versions.Count.Returns(1);
