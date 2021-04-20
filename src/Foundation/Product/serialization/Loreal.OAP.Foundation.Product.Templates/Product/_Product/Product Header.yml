@@ -1,13 +1,9 @@
 ﻿---
-ID: "05d4e5ee-d32d-44fb-bcf1-7ab592418d6d"
+ID: "cd806cd4-b408-443a-8a8b-69a12f18f4d0"
 Parent: "3a0788cb-a090-45b8-a9f7-2874a3526a34"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Product/_Product/Product Sub Info
+Path: /sitecore/templates/Foundation/Product/_Product/Product Header
 DB: master
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -15,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20210419T184156Z
+      Value: 20210419T184125Z

@@ -1,16 +1,16 @@
 ﻿---
-ID: "5f49d7c3-853d-42f7-8035-84ab97bcc5b9"
+ID: "b80d96d6-1dbc-4021-80f9-741fb6490556"
 Parent: "cd806cd4-b408-443a-8a8b-69a12f18f4d0"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Product/_Product/Product Header/Product Name
+Path: /sitecore/templates/Foundation/Product/_Product/Product Header/Product Packshot
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 400
 Languages:
 - Language: en
   Versions:

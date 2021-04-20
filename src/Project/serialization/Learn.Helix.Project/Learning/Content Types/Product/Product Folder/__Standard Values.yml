@@ -1,0 +1,26 @@
+﻿---
+ID: "a2dd1401-b6ae-4c79-82a3-2219243b1e69"
+Parent: "10e366f4-85e1-40f5-ab9a-5af8e79b7d50"
+Template: "10e366f4-85e1-40f5-ab9a-5af8e79b7d50"
+Path: /sitecore/templates/Project/Playground/Learning/Content Types/Product/Product Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/folder_network.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A958FD8A-3CF1-4043-A547-E6F90189BF36}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T191841Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

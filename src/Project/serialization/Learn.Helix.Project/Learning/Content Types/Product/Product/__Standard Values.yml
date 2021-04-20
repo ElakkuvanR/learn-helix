@@ -1,0 +1,22 @@
+﻿---
+ID: "bbe9aa5c-b83a-421b-adb7-f38824b673a8"
+Parent: "a958fd8a-3cf1-4043-a547-e6f90189bf36"
+Template: "a958fd8a-3cf1-4043-a547-e6f90189bf36"
+Path: /sitecore/templates/Project/Playground/Learning/Content Types/Product/Product/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/16x16/address_book.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210419T191711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
