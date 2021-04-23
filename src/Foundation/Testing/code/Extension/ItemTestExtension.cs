@@ -24,18 +24,10 @@ namespace Learn.Helix.Foundation.Testing.Extension
             var item = Substitute.For<Item>(itemId, itemActual, db);
             var templateItem = Substitute.For<Item>(templateId, templateActual, db);
             item.Name.Returns(itemName);
-            item.Versions.Returns(Substitute.For<ItemVersions>(item));
-            item.Versions.Count.Returns(1);
-            item.Paths.Returns(Substitute.For<ItemPath>(item));
-            item.Paths.Path.Returns(item.Name);
-            item.Language.Returns(Language.Parse("en"));
-            item.Languages.Returns(new Language[] { Language.Parse("en") });
             item.Template.Returns(new TemplateItem(templateItem));
             item.Fields.Returns(Substitute.For<FieldCollection>(item));
             item.Statistics.Returns(Substitute.For<ItemStatistics>(item));
             db.GetItem(item.ID).Returns(item);
-            db.GetItem(item.Paths.Path).Returns(item);
-            item.Axes.Returns(Substitute.For<ItemAxes>(item));
             return item;
         }
 
