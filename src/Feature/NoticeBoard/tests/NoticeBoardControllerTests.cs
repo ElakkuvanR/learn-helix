@@ -22,6 +22,7 @@ namespace Learn.Helix.Feature.NoticeBoard.Test
             _noticeboardRepo = Substitute.For<INoticeboardRepository>();
             _noticeboard = Substitute.For<INoticeboard>();
         }
+
         [Fact]
         public void NoticeBoard_ShouldReturn_NoticeboardModel()
         {

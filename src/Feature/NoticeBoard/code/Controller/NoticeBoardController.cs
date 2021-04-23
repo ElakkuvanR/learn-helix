@@ -31,6 +31,6 @@ namespace Learn.Helix.Feature.NoticeBoard.Controller
         {
             var model = _noticeboardRepo.GetNoticeboardViewModel();
             return View(model);
-        }
+        } 
     }
 }

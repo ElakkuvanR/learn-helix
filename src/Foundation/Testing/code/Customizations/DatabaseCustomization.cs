@@ -13,7 +13,13 @@ namespace Learn.Helix.Foundation.Testing.Customizations
         public void Customize(IFixture fixture)
         {
             fixture.Customize<Database>(x =>
-                x.FromFactory(() => Substitute.For<Database>())
+                x.FromFactory(() =>
+                {
+                    var customDatabase = Substitute.For<Database>();
+                    customDatabase.Name.Returns("master");
+                    customDatabase.Items.Returns(Substitute.For<ItemRecords>(customDatabase));
+                    return customDatabase;
+                })
                     .OmitAutoProperties());
         }
     }

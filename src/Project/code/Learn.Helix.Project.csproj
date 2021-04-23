@@ -125,6 +125,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.10.1.config.disabled" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Project\Learn.Helix.Project.Serialization.config" />
+    <Content Include="App_Config\Include\Indexing\LearnwithMe.ContentSearch.Solr.Index.Master.config" />
     <None Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Dependency.config.example" />

@@ -91,7 +91,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customizations\BaseAuthenticationManagerCustomization.cs" />
     <Compile Include="Customizations\DatabaseCustomization.cs" />
     <Compile Include="Customizations\DefaultAutoDataAttribute.cs" />
     <Compile Include="Customizations\ItemCustomization.cs" />

@@ -8,6 +8,7 @@ using Sitecore.Collections;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Globalization;
+using Sitecore.Data.Fields;
 using Version = Sitecore.Data.Version;
 
 namespace Learn.Helix.Foundation.Testing.Extension
@@ -36,6 +37,15 @@ namespace Learn.Helix.Foundation.Testing.Extension
             db.GetItem(item.Paths.Path).Returns(item);
             item.Axes.Returns(Substitute.For<ItemAxes>(item));
             return item;
+        }
+
+        public static void AddField(this Item item, string fieldName, string fieldValue, ID fieldId)
+        {
+            var field = Substitute.For<Field>(fieldId, item);
+            field.Name.Returns(fieldName);
+            field.Value.Returns(fieldValue);
+            item.Fields[fieldId].Returns(field);
+            item.Fields[fieldName].Returns(field);
         }
     }
 }
