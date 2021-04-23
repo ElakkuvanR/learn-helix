@@ -13,7 +13,7 @@ using Version = Sitecore.Data.Version;
 
 namespace Learn.Helix.Foundation.Testing.Extension
 {
-    public static class ItemTestExtension
+    public static class ItemExtension
     {
         public static Item AddItem(this Database db, string itemName, ID itemId, ID templateId)
         {

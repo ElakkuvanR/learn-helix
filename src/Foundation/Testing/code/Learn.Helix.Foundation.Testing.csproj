@@ -94,7 +94,7 @@
     <Compile Include="Customizations\DatabaseCustomization.cs" />
     <Compile Include="Customizations\DefaultAutoDataAttribute.cs" />
     <Compile Include="Customizations\ItemCustomization.cs" />
-    <Compile Include="Extension\ItemTestExtension.cs" />
+    <Compile Include="Extension\ItemExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
